@@ -1,4 +1,18 @@
-function timesplit(){
+=======================================
+ This script checks how many hours you 
+ have spent watching videos on youtube
+=======================================
+ 1.Go on Youtube and click on your avatar
+ 2.Go to "Your data in Youtube"
+ 3.Under the "Youtube Watch History" category go to "Manage your YouTube Watch History"
+ 4.Scroll as far down as you can (you can click the middle mouse button and drag down to scroll automaticly)
+ 5.Press Ctrl+Shift+C
+ 6.Go to "Console"
+ 7.Paste in the code below
+======================================
+	 
+	 
+function howmuchtime(){
 var allwatchedvideos = Array ( );
 var allwatchedtime = Array (0,0,0);
 var times = document.querySelectorAll("div[class='bI9urf']");
@@ -59,4 +73,4 @@ for(a=0;a<timesArr.length;a++){
 	clear();
 	console.log("Your time spent watching videos is: " + allwatchedtime[0] + " hours " + allwatchedtime[1] + " minutes " + allwatchedtime[2] + " seconds ")
 }
-timesplit();
+howmuchtime();
