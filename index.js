@@ -9,9 +9,9 @@ function stringToTimeObject(string) {
 }
 
 const allVideoTimeObject = (timeFormatArray) => {
-  let hours = 2;
-  let minutes = 70;
-  let seconds = 150;
+  let hours = 0;
+  let minutes = 0;
+  let seconds = 0;
 
   timeFormatArray.forEach((timeFormat) => {
     hours += timeFormat.hours;
