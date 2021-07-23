@@ -11,4 +11,4 @@ have spent watching videos on youtube
 4. Scroll as far down as you can ( press "End" to instantly scroll to the bottom )
 5. Press Ctrl+Shift+C
 6. Go to "Console"
-7. Paste in the code below ( only paste code that you know what its doing )
+7. Paste in the code from index.js ( only paste code that is safe )
